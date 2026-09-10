@@ -55,8 +55,8 @@ using namespace std;
         //
     
         if ((PlayerChoice == 1 && ComputerChoice == 3) ||
-        (PlayerChoice == 1 && ComputerChoice == 3) ||
-        (PlayerChoice == 1 && ComputerChoice == 3)) {
+        (PlayerChoice == 2 && ComputerChoice == 1) ||
+        (PlayerChoice == 3 && ComputerChoice == 2)) {
                 return 1;
         }
         else {
